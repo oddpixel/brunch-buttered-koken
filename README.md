@@ -23,4 +23,4 @@ Or simply copy the repository to your hard drive and rename it.
     * [Brunch site](http://brunch.io), [Backbone site](http://backbonejs.org/)
 
 ## Credit
-Brunch with Steak was spawned from [Brunch with Steak](https://github.com/oddpixel/brunch-steak) and customized to suite Koken plugin development.
+Brunch with Buttered Koken was spawned from [Brunch with Steak](https://github.com/oddpixel/brunch-steak) and customized to suite Koken plugin development.
