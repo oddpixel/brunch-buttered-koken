@@ -1,0 +1,55 @@
+{
+	"name": "PLUGIN_NAME_HERE",
+	"version": "1.0.0",
+	"description": "A Koken plugin!",
+	"demo": "",
+	"author": {
+		"name": "",
+		"link": ""
+	},
+
+	"koken_version_required": "0.15.0",
+
+	"data": {
+		"numberOnly": {
+			"label": "A number",
+			"info": "A number only entry.",
+			"type": "string",
+			"placeholder": "Number",
+			"validation": {
+				"type": "regex",
+				"rule":	"^[0-9]+$",
+				"error_message": "Only Integers allowed."
+			}
+		},
+		"email": {
+			"label": "Email Address",
+			"info": "Enter an Email address.",
+			"type": "string",
+			"placeholder": "Email",
+			"validation": {
+				"type": "email",
+				"error_message": "Please enter an email address."
+			}
+		},
+		"textBlock": {
+			"label": "Text",
+			"info": "Content goes here.",
+			"type": "text",
+			"placeholder": "Text",
+			"value": "Default value"
+		},
+		"checkboxEntry": {
+			"label": "Checkbox",
+			"info": "Display a checkbox.",
+			"type": "boolean"
+		},
+		"colorControl": {
+			"label": "Color",
+			"info": "A color entry control.",
+			"type": "color",
+			"value": "#000000"
+		}
+		
+	}
+}
